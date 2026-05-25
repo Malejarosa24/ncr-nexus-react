@@ -1,0 +1,172 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.config-container{
+
+    min-height: 100vh;
+
+    background: #020b16;
+
+    color: white;
+
+    padding: 40px;
+}
+
+/* Header */
+
+.config-header{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.config-header h1{
+
+    font-size: 55px;
+
+    color: white;
+}
+
+.config-header p{
+
+    color: #7dff2b;
+
+    font-size: 22px;
+
+    margin-top: 5px;
+}
+
+/* Botón */
+
+.back-btn{
+
+    background: #00d95f;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 24px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.back-btn:hover{
+
+    background: #00ff6a;
+
+    transform: scale(1.05);
+}
+
+/* Card */
+
+.config-card{
+
+    background: #07111f;
+
+    border: 1px solid rgba(125,255,43,0.2);
+
+    border-radius: 20px;
+
+    padding: 40px;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    box-shadow: 0 0 20px rgba(0,255,100,0.08);
+}
+
+.config-card h2{
+
+    margin-bottom: 30px;
+
+    color: #7dff2b;
+}
+
+/* Inputs */
+
+.config-group{
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 25px;
+}
+
+.config-group label{
+
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
+.config-group input,
+.config-group select{
+
+    background: #020b16;
+
+    border: 1px solid rgba(125,255,43,0.2);
+
+    padding: 16px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.config-group input:focus,
+.config-group select:focus{
+
+    border: 1px solid #7dff2b;
+}
+
+/* Botón guardar */
+
+.save-btn{
+
+    margin-top: 20px;
+
+    background: #7dff2b;
+
+    color: black;
+
+    border: none;
+
+    padding: 16px 24px;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.save-btn:hover{
+
+    transform: scale(1.05);
+}

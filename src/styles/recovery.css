@@ -1,0 +1,121 @@
+.recovery-container{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    background-image: url("../assets/login-bg.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding-right: 180px;
+
+    padding-left: 20px;
+}
+
+.recovery-card{
+
+    width: 500px;
+
+    background: rgba(255,255,255,0.92);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 30px;
+
+    padding: 50px 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 22px;
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+
+.recovery-card h1{
+
+    font-size: 46px;
+
+    text-align: center;
+
+    color: #10235c;
+
+    font-weight: bold;
+
+    line-height: 1.1;
+
+    margin-bottom: 10px;
+}
+
+.recovery-card p{
+
+    text-align: center;
+
+    color: #66d81f;
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+}
+
+.recovery-card input{
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background: #f1f1f1;
+
+    font-size: 18px;
+
+    outline: none;
+}
+
+.recovery-card button{
+
+    background: #7dff2b;
+
+    color: #07153b;
+
+    border: none;
+
+    padding: 18px;
+
+    border-radius: 18px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.recovery-card button:hover{
+
+    transform: scale(1.03);
+
+    background: #6deb20;
+}
+
+.recovery-card span{
+
+    text-align: center;
+
+    color: #66d81f;
+
+    cursor: pointer;
+
+    font-size: 20px;
+}
